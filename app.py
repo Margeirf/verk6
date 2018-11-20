@@ -18,7 +18,7 @@ def index():
 def static_skrar(skra):
     return static_file(skra, root='./public/')
 
-@route('/vorur')
+@route('/items')
 def sida2():
     item_id = request.query.vara
     ts = datetime.datetime.now() + datetime.timedelta(days=365)

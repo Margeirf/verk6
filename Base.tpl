@@ -7,7 +7,7 @@
 <body>
     <h2>{{title}}</h2>
     <hr>
-    {{!base}}
+    {{!Base}}
   
     <footer>
         <hr><p>Copyright &copy; 2018, Mikael</p>
